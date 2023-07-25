@@ -1,0 +1,316 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	background-color: white;
+	width: 960px;
+}
+
+h1, h2, h3, a{
+	font-family: 'Bree Serif', serif;
+}
+
+p, th, td, li {
+	font-family: 'Domine', serif;
+}
+
+/* Header Style*/
+
+header {
+	height: 8em;
+	background-color:white;
+	margin: 0px;
+	padding:0px;
+}
+
+header div#top{
+	margin:auto;
+	pagging: 15px;
+	height: 80px;
+	width: 98%;
+}
+
+header div#bottom{
+	background-color:#BD9EFF;
+	margin:none;
+	padding: 10px;
+}
+
+#UOC {
+	max-height: 98%;
+	max-width: 98%;
+	margin: 0px, 0px, 5px, 10px;
+	object-position: left;
+}
+
+header h1{
+	float:right;
+	color:#444444;
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 30px;
+}
+
+#menu{
+	list-style-type: none;
+	margin:auto;
+}
+
+#menu li {
+	display:inline;
+}
+
+header a.home:link{
+	text-decoration:none;
+	color:blue;
+	margin:0px;
+	padding: 10px;
+}
+
+header a.home:visited{
+	text-decoration:none;
+	color:blue;
+	margin:0px;
+	padding: 10px;
+}
+
+header a.home:hover{
+	text-decoration:none;
+	background-color:#444444;
+	color:#DDDDDD;
+	margin:0px;
+	padding: 10px;
+}
+
+header a.home:active{
+	text-decoration:none;
+	background-color:#444444;
+	color:#DDDDDD;
+	margin:0px;
+	padding: 10px;
+}
+
+header a.home:focus{
+	text-decoration:none;
+	background-color:#444444;
+	color:#DDDDDD;
+	margin:0px;
+	padding: 10px;
+}
+
+header a.other:link{
+	text-decoration:none;
+	color:white;
+	margin:0px;
+	padding: 10px;
+}
+
+header a.other:visited{
+	text-decoration:none;
+	color:white;
+	margin:0px;
+	padding: 10px;
+}
+
+header a.other:hover{
+	text-decoration:none;
+	background-color:#444444;
+	color:#DDDDDD;
+	margin:0px;
+	padding: 10px;
+}
+
+header a.other:active{
+	text-decoration:none;
+	background-color:#444444;
+	color:#DDDDDD;
+	margin:0px;
+	padding: 10px;
+}
+
+header a.other:focus{
+	text-decoration:none;
+	background-color:#444444;
+	color:#DDDDDD;
+	margin:0px;
+	padding: 10px;
+}
+
+header a#current {
+	text-decoration:none;
+	background-color:#444444;
+	color:#DDDDDD;
+	margin:0px;
+	padding: 10px;
+}
+
+/* Footer style*/
+
+footer{
+	background-color:#444444;
+	color: white;
+	text-align: left;
+	margin: auto;
+	padding:10px;
+}
+
+/*Home page style*/
+
+section {
+	width: 85%;
+	margin:0 auto 10px;
+	overflow:hidden;
+}
+
+section * img{
+	display: block;
+	margin: 0 auto;
+	padding:5px;
+}
+
+#left {
+	width: 44%;
+	height: 480px;
+	float:left;
+	border: 1px solid;
+	border-radius: 5px;
+	margin: auto;
+	padding: auto;
+}
+
+#left h2{
+	color:#444444;
+	font-weight: bold;
+	margin-left:10px;
+}
+
+#left h3{
+	color:#BD9EFF;
+	margin-left:10px;
+	
+}
+
+#right {
+	width: 44%;
+	height: 480px;
+	float:right;
+	border: 1px solid;
+	border-radius: 5px;
+	margin: auto;
+	padding: auto;
+	
+}
+
+#right h2{
+	color:#444444;
+	font-weight: bold;
+	margin-left:10px;
+}
+
+#right h3{
+	color:#BD9EFF;
+	margin-left:10px;
+}
+
+#left p, #right p{
+	margin-left:10px;
+	margin-right:10px;
+	text-align: justify;
+	line-break: normal;
+}
+
+/*table style*/
+
+table {
+	width:100%;
+	border-collapse: collapse;
+}
+
+th, td {
+	text-align:center;
+	vertical-align:center;
+	border: 1px solid #DDDDDD;
+	padding: 5px;
+}
+caption {
+	background-color:#BD9EFF;
+	color:white;
+	padding: 5px;
+}
+
+th {
+	background-color:#DDDDDD;
+}
+
+th[scope="row"] {
+	color:#BD9EFF;
+}
+
+/*form style*/
+
+form {
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	width: 95%;
+}
+
+form ul{
+	list-style-type: none;
+	width: 70%;
+	margin:auto;
+	padding: 0;
+}
+
+form ul li {
+	margin:10px;
+}
+
+form ul li label {
+	margin: 10px, 0px;
+	text-align:left;
+	vertical-align: center;
+}
+
+form ul li input {
+	float:right;
+	text-align:left;
+}
+
+form p {
+	margin:15px;
+	padding: 5px;
+	font-weight: bold;
+}
+
+p.purple {
+	background-color:#BD9EFF;
+	border-radius:5px;
+	color:white;
+}
+
+#accept {
+	margin-top:30px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	border-radius:5px;
+	font-weight:bold;
+	width:80%;
+	background-color:#DDDDDD;
+}
+
+input:invalid{
+	border:2px solid red;
+}
+
+input.button {
+	float:none;
+	margin: auto;
+	padding: 5px 10px;
+	background-color:#BD9EFF;
+	border-color: #A379FF;
+	color:white;
+	font-family:'Domine', serif;
+}

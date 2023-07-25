@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Inscripción</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Domine" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<div id="top">
+			<img id="UOC" alt="UOC logo" src="img/logo-uoc-alumni.png"> 
+			<h1>Emprenedoria UOC</h1>
+		</div>
+		<div id="bottom">
+			<ul id="menu">
+				<li><a class="home" href="Home.html" title="home">Inici</a></li>
+				<li><a class="other" href="Emprenedoria.html" title="Emprenedoria">Emprenedoria</a></li>
+				<li><a id="current" class="other" href="Inscripción.html" title="Inscripció">Inscripció</a></li>
+			</ul>
+		</div>
+	</header>
+	<section>
+	<h1>Vull ser emprenedor, com començo?</h1>
+<p>Omple el següent formulari per obtenir informació sobre emprenedoria i com començar la teva startup:</p>
+	<form id="form" action="Home.html" method="get">
+<p class="purple">Dades personals</p>
+		<ul class="formlist">
+			<li>
+				<label for="name">Nom</label>
+				<input required type="text" name="name" id="name" value="" autocomplete="on" />
+			</li>
+			<li>
+				<label for="lastname">Cognoms</label>
+				<input required type="text" name="lastname" id="lastname" value="" autocomplete="on" />
+			</li>
+			<li>
+				<label for="email">Adreça electrònica</label>
+				<input required type="email" name="email" id="email" value="" autocomplete="on" />
+			</li>
+			<li>
+				<label for="dob">Data de naixement</label>
+				<input required type="date" name="dob" id="dob" value="" />
+			</li>
+		</ul>
+<p class="purple">Quin tipus de negoci t'agradaria emprendre? (selecciona entre):</p>
+			
+		<ul>
+			<li>
+				<label for="Arts i Humanitats">Arts i Humanitats</label>
+				<input type="radio" checked="checked" name="tipunegoci" id="Arts i Humanitats" value="Arts i Humanitats" />
+			</li>
+			<li>
+				<label for="Ciències de la salut">Ciències de la salut</label>
+				<input type="radio" name="tipunegoci" id="Ciències de la salut" value="Ciències de la salut" />
+			</li>
+			<li>
+				<label for="Comunicació i informació">Comunicació i informació</label>
+				<input type="radio" name="tipunegoci" id="Comunicació i informació" value="Comunicació i informació" />
+			</li>
+			<li>
+				<label for="Dret i ciències polítiques">Dret i ciències polítiques</label>
+				<input type="radio" name="tipunegoci" id="Dret i ciències polítiques" value="Dret i ciències polítiques" />
+			</li>
+			<li>
+				<label for="Disseny, creació i multimèdia">Disseny, creació i multimèdia</label>
+				<input type="radio" name="tipunegoci" id="Disseny, creació i multimèdia" value="Disseny, creació i multimèdia"/>
+			</li>
+			<li>
+				<label for="Economia i empresa">Economia i empresa</label>
+				<input type="radio" name="tipunegoci" id="Economia i empresa" value="Economia i empresa" />
+			</li>
+			<li>
+				<label for="Informàtica, multimèdia i telecomunicació">Informàtica, multimèdia i telecomunicació</label>
+				<input type="radio" name="tipunegoci" id="Informàtica, multimèdia i telecomunicació" value="Informàtica, multimèdia i telecomunicació" />
+			</li>
+			<li>
+				<label for="Psicologia i ciències de l'educació">Psicologia i ciències de l'educació</label>
+				<input type="radio" name="tipunegoci" id="Psicologia i ciències de l'educació" value="Psicologia i ciències de l'educació" />
+			</li>
+			<li>
+				<label for="Turisme">Turisme</label>
+				<input type="radio" name="tipunegoci" id="Turisme" value="turisme" />
+			</li>
+		</ul>
+<p class="purple">Adreça</p>
+		<ul>
+			<li>
+				<label for="street">Carrer i número</label>
+				<input required type="text" name="street" id="street" value="" autocomplete="on" />
+			</li>
+			<li>
+				<label for="town">Ciutat</label>
+				<input required type="text" name="town" id="town" value="" autocomplete="on" />
+			</li>
+			<li>
+				<label for="state">Província</label>
+				<input required type="text" name="state" id="state" value="" autocomplete="on" />
+			</li>
+			<li>
+				<label for="postcode">Codi Postal</label>
+				<input required type="text" pattern="((0[1-9]|5[0-2])|[1-4][0-9])[0-9]{3}" name="postcode" id="postcode" value="" autocomplete="on" />
+			</li>
+			<li>
+				<label for="country">País</label>
+				<input required type="text" name="country" id="country" value="" autocomplete="on" />
+			</li>
+		</ul>
+<p class="purple">Quin tipus d'informació vols que t'enviem? </p>
+		<ul>
+			<li>
+				<label for="Llistat d'empreses">Llistat d'empreses</label>
+				<input type="checkbox" checked="checked" id="Llistat d'empreses" value="Llistat d'empreses">
+			</li>
+			<li>
+				<label for="Informes del sector">Informes del sector</label>
+				<input type="checkbox" checked="checked" id="Informes del sector" value="Informes del sector">
+			</li>
+			<li>
+				<label for="Cursos i formació relacionada">Cursos i formació relacionada</label>
+				<input type="checkbox" checked="checked" id="Cursos i formació relacionada" value="Cursos i formació relacionada">
+			</li>
+			<li>
+				<label for="Recursos en la xarxa">Recursos en la xarxa</label>
+				<input type="checkbox" checked="checked" id="Recursos en la xarxa" value="Recursos en la xarxa">
+			</li>
+			<li>
+				<label for="Informació sobre networking">Informació sobre networking</label>
+				<input type="checkbox" checked="checked" id="Informació sobre networking" value="Informació sobre networking">
+			</li>
+		</ul>
+		<ul class="accept">
+			<li id="accept">
+				<label for="acceptar">¿Acceptar la política de privacitat?</label>
+				<input required type="checkbox" id="acceptar" value="Yes, I accept.">
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<input class="button" type="submit" value="enviar">
+				<input class="button" type="reset" value="esborrar">
+			</li>
+		</ul>
+	</form>
+	</section>
+	<footer><p>PAC 3 Llenguatges i estandards web, 2019. <strong>Sylviane Caffarel</strong></p></footer>
+</body>
+</html>
