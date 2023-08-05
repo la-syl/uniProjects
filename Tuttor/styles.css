@@ -1,0 +1,510 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*sections*/
+
+/********general code********/
+
+body {
+	width: 100%;
+}
+
+hgroup {
+	max-width:1920px;
+	min-width: 1200px;
+	padding: 0px 20px;
+	margin:auto;
+}
+
+hr {
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-bottom-color:#f3d34a;
+	margin:0px auto;
+	width:75%;
+}
+
+/***** White sections *****/
+
+.white {
+	max-width:1920px;
+	min-width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+}
+
+.white h2, .white h3 {
+	color:#025C7F;
+}
+
+/******* Blue sections *******/
+
+.blue, header {
+	max-width:100%;
+	min-width:1200px;
+	background-color:#025C7F;
+	color:white;
+	padding: 15px 0px;
+}
+
+.centre {
+	max-width:1920px;
+	min-width:1200px;
+	padding: 0px 30px;
+	margin:auto;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+}
+
+/****** typography *******/
+
+body {
+	font-family: "Tw Cen MT";
+}
+
+.big_letter, h1 {
+	font-size: 56.832px;
+}
+
+.big_letter {
+	color:#f3d34a;
+}
+
+h2 {
+	font-size: 42.635px;
+}
+
+.small_letters, h3, input {
+	font-size: 31.984px;
+}
+
+h1, h2, h3, .small_caps {
+	font-variant-caps: all-small-caps;
+}
+
+.small_caps {
+	font-weight:bold;
+}
+
+h4, li, dt {
+	font-size: 23.994px;
+}
+
+p, dd {
+	font-size: 18px;
+	line-height: 23px;
+	max-width: 600px;
+}
+
+/*** images ***/
+
+
+
+/*** header ***/
+
+
+#encabezamiento {
+	max-width:1920px;
+	min-width: 1200px;
+	margin: auto;
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.line_title {
+	padding:none;
+	margin:none;
+	border-bottom-style:solid;
+	border-bottom-color: #f76c5e;
+	border-bottom-width: 8px;
+}
+
+/*** Natcha section ***/
+
+#natcha_premio {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#natcha_premio>img {
+	margin-right : 20px;
+}
+
+/*** Presentation of Toni***/
+
+#presentacion_toni {
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1920px;
+}
+
+#presentacion_toni>iframe {
+	width:560px; 
+	height:auto;
+	margin-right: 20px;
+}
+
+#presentacion_toni_images {
+	width:300px;
+	display:flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
+
+#presentacion_toni_images>img {
+	width:100%;
+	height:auto;
+}
+
+/*** Value list ***/
+
+#valores {
+	margin:auto;
+}
+
+/*** Customer's opinion ***/
+
+#opiniones_clientes {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+
+#opiniones_clientes>iframe {
+	width: 30%;
+}
+
+/*** Mission ***/
+
+#mission {
+	margin:auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+blockquote {
+	font-size: 23.994px;
+	font-style: italic;
+	max-width:650px;
+	text-indent:-0.4em;
+}
+
+/* titulo ttuttor */
+
+#metodo_ttuttor_titulo {
+	display:flex;
+	flex-direction: row;
+	align-items: baseline;
+	justify-content: center;
+}
+
+#metodo_ttuttor_titulo>img {
+	max-width:400px;
+}
+
+#metodo {
+	font-size:56.832px;
+}
+
+/***Presentation of the method***/
+
+.ttuttor_linea {
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height: 90px;
+}
+
+.ttuttor_palabras {
+	display:flex;
+	flex-direction: row;
+	align-items: baseline;
+	min-width: 200px;
+}
+
+#ttuttor_cuerpo {
+	max-width: 700px;
+	margin: auto;
+}
+
+/*** A quien va dirigido ***/
+
+#a_quien_dirigido {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+
+.corresponde_o_no {
+	width: 45%;
+}
+
+/*** Title descubre el metodo ttuttor ***/
+
+#titulo_descubre_ttuttor {
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: baseline;
+	
+}
+
+/*** En que consiste ***/
+
+#en_que_consiste {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	align-items: centre;
+}
+
+#en_que_consiste img {
+	width:100%;
+	height:auto;
+	padding:30px 0px;
+}
+
+/*** Que me enseñara ***/
+
+#que_ensenara {
+	margin:auto;
+	padding:none;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	
+}
+
+#que_ensenara img {
+	width:300px;
+	height:auto;
+}
+
+/*** Module list ***/
+
+.modulos_secciones {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.module_title {
+	width:45%;
+	text-align: right;
+	padding-right: 50px;
+}
+
+#modulos_secciones>p {
+	width: 45%;
+}
+
+/*** Bonus section***/
+
+#bonus_section {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+}
+
+.bonus {
+	width: 45%;
+}
+
+.bonus_title {
+	color:#f3d34a;
+}
+
+/*** Steps to get in touch ***/
+
+#tres_pasos {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.pasos_inscription {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#mensaje_importante {
+	background-color:black;
+	padding: 10px 15px;
+	margin:20px auto;
+	border-radius:15px;
+}
+
+#mensaje_importante>img {
+	display:block;
+	float: left;
+	padding-right: 15px;
+}
+
+#mensaje_importante>h3 {
+	margin: 0px;
+	padding:0px;
+	max-width:800px;
+	color:#f76c5e;
+}
+
+#mensaje_importante>p {
+	margin: 0px;
+	padding:0px;
+	max-width: 920px;
+	min-width:720px;
+	color:#f76c5e;
+}
+
+/*** FAQ ***/
+
+#faq {
+	margin:auto;
+}
+
+/*** footer ***/
+
+footer {
+	padding: 20px 0px;
+	background-color:darkgray;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+footer>img {
+	height:64px;
+	padding: 15px;
+}
+
+/* Buttons */
+
+input[type="button"]{
+	padding: 10px 20px;
+	background-color: #f3d34a;
+	font-family: "Tw Cen MT";
+	border-style: none;
+	border-radius: 15px;
+}
+
+input[type="button"]:hover{
+	background-color: #ffdb3d;
+	cursor: pointer;
+}
+
+/* lists */
+
+ul {
+	list-style-type: none;
+}
+
+#lista_puede_ser>li {
+	background-image: url("../../ttuttor.com_complete_icon_pack/1x/Hat icon.png");
+	background-repeat:no-repeat;
+	padding:0px 0px 0px 90px;
+	max-width: 700px;
+	min-width: 400px;
+}
+
+dl, dt, dd {
+	margin:0px;
+	padding:0px;
+}
+
+#valores_uno {
+	background-image: url("../../ttuttor.com_complete_icon_pack/1x/number_1_white.png");
+	background-repeat: no-repeat;
+	padding: 10px 0px 10px 90px;
+	margin: auto;
+}
+
+#valores_dos {
+	background-image: url("../../ttuttor.com_complete_icon_pack/1x/number_two_white.png");
+	background-repeat: no-repeat;
+	padding: 10px 0px 34px 90px;
+	margin: auto;
+}
+
+#valores_tres {
+	background-image: url("../../ttuttor.com_complete_icon_pack/1x/number_three_white.png");
+	background-repeat: no-repeat;
+	padding: 10px 0px 10px 90px;
+	margin: auto;
+}
+
+#valores_cuatro {
+	background-image: url("../../ttuttor.com_complete_icon_pack/1x/number_four_white.png");
+	background-repeat: no-repeat;
+	padding: 10px 0px 34px 90px;
+	margin: auto;
+}
+
+#valores_cinco {
+	background-image: url("../../ttuttor.com_complete_icon_pack/1x/number_five_white.png");
+	background-repeat: no-repeat;
+	padding: 10px 0px 10px 90px;
+	margin: auto;
+}
+
+#lista_sabias_que>li {
+	background-image: url("../../ttuttor.com_complete_icon_pack/1x/frown_red.png");
+	background-repeat:no-repeat;
+	background-size: 60px 60px;
+	padding:10px 0px 10px 90px;
+	max-width: 700px;
+	min-width: 400px;
+	height: 70px;
+}
+
+#lista_mas_clientes>li {
+	background-image: url("../../ttuttor.com_complete_icon_pack/1x/smiley_blue.png");
+	background-repeat:no-repeat;
+	padding:30px 0px 30px 90px;
+	margin: auto;
+	max-width: 700px;
+	min-width: 400px;
+}
+
+#list_te_corresponde>li {
+	background-image: url("images/tick_yellow.png");
+	background-repeat: no-repeat;
+	background-size: 60px 60px;
+	padding: 10px 0px 10px 90px;
+	height: 60px;
+}
+
+#list_no_te_corresponde>li {
+	background-image: url("images/cross_red.png");
+	background-repeat: no-repeat;
+	background-size: 60px 60px;
+	padding: 10px 0px 10px 80px;
+	height: 60px;
+}
+
+#list_que_me_aprendara>li {
+	background-image: url("images/tick_yellow.png");
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	padding: 10px 0px 10px 80px;
+	margin: auto;
+	height: 40px;
+}
+
